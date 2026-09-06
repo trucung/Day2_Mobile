@@ -1,12 +1,8 @@
 # 30 Bài Tập OOP với TypeScript
 
-Bài tập ôn tập OOP (class, interface, kế thừa, generic, abstract, static, singleton...)
-dựa trên kiến thức TypeScript đã học ở Buổi 1–4 (Lập trình di động).
-
 ## Cấu trúc
 
-Mỗi bài nằm trong 1 file riêng ở `src/`, tên file theo dạng `baiXX_TenLop.ts`.
-Mỗi file có class/interface theo đúng yêu cầu đề bài + đoạn code demo chạy thử ngay bên dưới.
+Mỗi bài nằm trong 1 file riêng ở `src/`
 
 | Bài | File | Nội dung |
 |---|---|---|
@@ -43,8 +39,6 @@ Mỗi file có class/interface theo đúng yêu cầu đề bài + đoạn code 
 
 ## Phần 2: Async/Await, Promise, Fetch (`src/async/`)
 
-30 bài về lập trình bất đồng bộ, đặt tên file theo đúng số thứ tự đề bài:
-
 | Nhóm | File | Nội dung |
 |---|---|---|
 | A1-A10 | A01...A10 | Promise cơ bản: tạo, resolve/reject, `.then/.catch/.finally`, `Promise.all`, `Promise.race`, chain |
@@ -66,18 +60,13 @@ npx ts-node src/async/A01_helloAsync.ts
 npx ts-node src/async/C21_fetchTodo.ts   # cần Internet
 ```
 
-Build toàn bộ ra JS (thư mục `dist/`):
-```bash
-npm run build
-```
-
 ## Cách đẩy lên GitHub
 
 ```bash
 git init
 git add .
-git commit -m "OOP TypeScript exercises - 30 bai"
+git commit -m "Day2_Mobile"
 git branch -M main
-git remote add origin <link-repo-github-cua-ban>
+git remote add origin <link-repo-github>
 git push -u origin main
 ```
