@@ -1,0 +1,13 @@
+{
+  "name": "oop-typescript-exercises",
+  "version": "1.0.0",
+  "description": "30 bai tap OOP voi TypeScript - mon Lap trinh di dong",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
